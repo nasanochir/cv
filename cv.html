@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Nasan-Ochir Sukhbaatar - CV</title>
+<style>
+  @page { size: A4; margin: 11mm 13mm; }
+  * { box-sizing: border-box; }
+  body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 9.1pt; line-height: 1.34; color: #1d1d1f; margin: 0; }
+  header { border-bottom: 2px solid #1d1d1f; padding-bottom: 8px; margin-bottom: 10px; }
+  h1 { font-size: 22pt; margin: 0; letter-spacing: -0.3px; }
+  .title { font-size: 11pt; color: #444; margin-top: 2px; }
+  .contact { margin-top: 5px; color: #333; }
+  .contact span + span::before { content: " | "; color: #999; }
+  a { color: inherit; text-decoration: none; }
+  h2 { font-size: 10.5pt; text-transform: uppercase; letter-spacing: 1.2px; color: #b4430e; margin: 11px 0 5px; border-bottom: 1px solid #ddd; padding-bottom: 2px; }
+  .job { margin-bottom: 7px; break-inside: avoid-page; }
+  .job-head { display: flex; justify-content: space-between; align-items: baseline; }
+  .job-head b { font-size: 10.5pt; }
+  .dates { color: #555; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .role { font-style: italic; color: #444; margin-bottom: 3px; }
+  .proj { margin: 4px 0 0; break-inside: avoid; }
+  .proj-name { font-weight: 600; }
+  .stack { color: #666; font-size: 8.8pt; }
+  ul { margin: 2px 0 0; padding-left: 16px; }
+  li { margin: 1px 0; }
+  .skills div { margin: 2px 0; display: grid; grid-template-columns: 92px 1fr; }
+  
+  p { margin: 0 0 4px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Nasan-Ochir Sukhbaatar</h1>
+  <div class="title">Applied AI Engineer / Tech Lead / Full-Stack and Mobile</div>
+  <div class="contact">
+    <span>Ulaanbaatar, Mongolia</span><span><a href="mailto:nasanochir@icloud.com">nasanochir@icloud.com</a></span><span>+976 9494 9350</span><span><a href="https://github.com/nasanochir">github.com/nasanochir</a></span>
+  </div>
+</header>
+
+<h2>Summary</h2>
+<p>Applied AI engineer and team lead with 8+ years shipping software in Mongolia across government, banking and consumer products. I train and ship models for a low-resource language: my fine-tuned Mongolian voice model dubs full drama episodes with distinct, emotional native voices. I also build grounded LLM products end to end, from data pipelines to evaluation and paid production use. Before that I led mobile and full-stack teams on a national e-library, an 8,500-seat arena platform, bank apps and enterprise systems for Shunkhlai Group and GS25.</p>
+
+<h2>Selected AI Work</h2>
+<ul>
+  <li><b>Mongolian drama dubbing model (trained myself).</b> Built a ~92-hour, 95-speaker Mongolian speech corpus and fine-tuned a voice model on it, including emotion training (angry, sad, tender delivery). Built per-character voice casting that keeps one consistent voice per character across a series, and an automated QA gate that checks every line for correct words, voice, gender, pitch, timing and a model-based listening test that matches human review 87-93% of the time. Built the subtitle side too: it reads the source subtitles (official tracks, or burned-in text read from the video frames), rewrites them as natural Mongolian sized to each line's timing, and burns Mongolian subtitles into the final episode. <b>Watch: <a href="https://nasanochir.github.io/mongolian-ai-dubbing/" style="color:#b4430e">nasanochir.github.io/mongolian-ai-dubbing</a></b></li>
+  <li><b>Grounded civic AI (Open Parliament, 3rd place).</b> Search and chat over parliament agendas, transcripts and 950 laws (15k articles), built only on official open government data. Missing data is shown as a gap, never filled in by the model. Facts are kept only when backed by a verbatim official quote. A validation rule threw out 345 of 550 wrong document links. The assistant re-answers under a stricter grounding rule when it fails to cite sources.</li>
+  <li><b>Paid LLM product (astro.mn).</b> 14 personalized long-form reading types and a chat that remembers the user. Facts are computed in code and locked into the prompt so the model can't invent numbers. Live with paid checkout.</li>
+  <li><b>Mongolian language tools.</b> Mongolian meeting transcription and AI meeting notes SaaS (ZeroTech). A spell checker with 96% top-1 suggestion accuracy against 72% for the market leader, on a held-out benchmark.</li>
+  <li><b>AI adoption.</b> Designed Shunkhlai Group's 4-module employee AI training program. Use multi-agent coding workflows day to day.</li>
+</ul>
+
+<h2>Experience</h2>
+
+<div class="job">
+  <div class="job-head"><b>ZeroTech LLC</b><span class="dates">Jul 2023 - Oct 2026</span></div>
+  <div class="role">Senior Software Developer (backend, web, mobile)</div>
+
+  <div class="proj"><span class="proj-name">GS25 Mongolia: mobile app and receipt admin panel</span>
+    <span class="stack"> Flutter, Next.js 16, React 19, Medusa UI, TanStack Query, Zustand, Docker</span>
+    <ul>
+      <li>Developed the GS25 convenience-store customer app and was the top contributor to the receipt administration panel used to manage and audit e-receipts.</li>
+    </ul>
+  </div>
+
+  <div class="proj"><span class="proj-name">Shunkhlai Group: Orange B2C app, B2B driver app, admin panel</span>
+    <span class="stack"> Flutter, Riverpod 3, Auto Route, Google Maps, Firebase, Codemagic CI/CD, Next.js 14, Mantine</span>
+    <ul>
+      <li>Lead developer on the Shunkhlai Orange consumer app (iOS/Android/web) for fuel and retail customers, with codegen-based architecture (Freezed, json_serializable, riverpod_generator).</li>
+      <li>Built a B2B delivery-driver app with live maps and route handling, plus features in the Next.js operations panel.</li>
+    </ul>
+  </div>
+
+  <div class="proj"><span class="proj-name">Campus super-app with mini-apps</span>
+    <span class="stack"> Flutter, Riverpod 3, Firebase, Next.js, Vercel</span>
+    <ul>
+      <li>Architected and built nearly all of a campus super-app hosting pluggable mini-apps: events, facility requests, meeting-room booking, parking, indoor wayfinding map. Wrote the mini-app integration guide.</li>
+    </ul>
+  </div>
+
+  <div class="proj"><span class="proj-name">Car Parking platform (backend and admin)</span>
+    <span class="stack"> Node.js, Express + TSOA, Drizzle ORM, PostgreSQL, Docker, Jest</span>
+    <ul>
+      <li>Built ANPR plate-recognition entry/exit with Hikvision gate integration, eligibility and gate-direction rules, and entry-time pricing snapshots so later policy changes don't alter exit fees.</li>
+      <li>Built QR payments: invoices, coupons, partial and double-payment handling, refunds, HMAC-verified callbacks. Also slot allocation, guest passes and an in-app notification center.</li>
+    </ul>
+  </div>
+
+  <div class="proj"><span class="proj-name">DOT / OnTap customer app</span>
+    <span class="stack"> Flutter, Riverpod, Dio, Firebase, l10n (MN/EN/KO)</span>
+    <ul>
+      <li>Top contributor (146 commits) to a trilingual customer app covering assets, finance and payments, branch and calendar booking, and push notifications.</li>
+    </ul>
+  </div>
+
+  <div class="proj"><span class="proj-name">goOrange: Microsoft Teams peer-recognition app (3rd place, Shunkhlai Hackathon)</span>
+    <span class="stack"> React 19, Vite, Supabase (Postgres, Edge Functions, RPC), Bot Framework, Microsoft Graph, MCP</span>
+    <ul>
+      <li>Built a Teams tab and bot where employees give each other "oranges": weekly allowances, reactions, rewards redemption, idea board. Includes Graph-synced directory, proactive notifications and an MCP/agent interface.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-head"><b>SteppeLink LLC <span style="font-weight:400;color:#555">(Steppe Link Holding)</span></b><span class="dates">Dec 2021 - Jul 2023</span></div>
+  <div class="role">Team Lead, Mobile</div>
+  <div class="proj"><span class="proj-name">Esan: national digital library</span>
+    <span class="stack"> iOS, Android, Readium</span>
+    <ul>
+      <li>Led mobile development of Mongolia's national e-library (ebooks, audiobooks, theses, newspapers, magazines) with offline reading.</li>
+      <li>Integrated the Readium SDK for EPUB rendering, with pagination, highlights and reading-position sync.</li>
+    </ul>
+  </div>
+  <div class="proj"><span class="proj-name">Steppe Arena app</span>
+    <ul>
+      <li>Delivered the app for the 8,500-seat AIC Steppe Arena: event and sports ticketing, in-seat food ordering, ice-skating session booking, and plate-based smart-parking payment.</li>
+    </ul>
+  </div>
+  <div class="proj"><span class="proj-name">Odin Survey</span>
+    <ul>
+      <li>Built a survey and market-research platform (web, iOS, Android) where users earn points and coupons for completing surveys and business clients get aggregated insights.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-head"><b>Infinite Solutions LLC</b><span class="dates">Oct 2018 - Dec 2021</span></div>
+  <div class="role">Senior Software Developer, Mobile</div>
+  <ul>
+    <li>Built and maintained mobile banking apps for major Mongolian banks: <b>Arig Bank, XacBank, Golomt Bank, Trade and Development Bank (TDB)</b>. Work covered secure login, accounts, transfers, card management and payments.</li>
+    <li>Developed consumer apps <b>Shuffle</b> and <b>Elify</b>.</li>
+    <li>Worked within a fintech vendor building payments, merchant and loyalty infrastructure under banking security and compliance requirements.</li>
+  </ul>
+</div>
+
+<div class="job">
+  <div class="job-head"><b>Astvision LLC</b><span class="dates">Apr 2018 - Oct 2018</span></div>
+  <div class="role">Software Developer, Full-Stack</div>
+  <ul>
+    <li>Full-stack work on government e-service systems: early <b>e-Mongolia</b> platform work, the Ulaanbaatar city e-services portal (<b>e-service.ulaanbaatar.mn</b>), and <b>my.tog.mn</b>, the Ulaanbaatar Electricity Distribution Network customer portal for bills, consumption and service requests.</li>
+  </ul>
+</div>
+
+<h2>Independent Products and Awards</h2>
+<ul>
+  <li><b>3rd place, Open Parliament Hackathon (2026)</b>, organized by the Secretariat of the State Great Khural, The Asia Foundation and Unread Media. 24-hour build of an MP accountability platform (votes, attendance, speeches, bill compliance, grounded AI chat).</li>
+  <li><b>3rd place, Shunkhlai Hackathon</b> with goOrange, an employee recognition tool inside Microsoft Teams, later built out for production (see ZeroTech).</li>
+  <li><b>kinody.mn</b>: mobile-first Asian drama streaming for an audience that is 97% mobile, with QPay subscriptions and protected video delivery. Home of the dubbing model above.</li>
+  <li><b>gadaad.mn</b>: visa application helper for Mongolian travellers covering 10 countries. Passport scan autofill, document checklists with uploads, paid AI approval-chance scoring and arrival-card smart fill. Next.js 16, Supabase, Cloudflare Workers.</li>
+  <li><b>Koharu</b> (open source, MIT): contributor to a desktop manga image translator (Rust, Tauri 2, local LLMs) with text detection, OCR, inpainting and an MCP server.</li>
+</ul>
+
+<h2>Education</h2>
+<div class="job-head"><span><b>Sapienza University of Rome</b>, M.Eng. program in Computer Science and AI (completed first year)</span><span class="dates">2017 - 2018</span></div>
+<div class="job-head"><span><b>National University of Mongolia</b>, Bachelor of Information Technology</span><span class="dates">2013 - 2017</span></div>
+
+<h2>Skills</h2>
+<div class="skills">
+  <div><b>Mobile</b>Flutter/Dart (Riverpod, Auto Route, Freezed), React Native/Expo, iOS/Android release, Firebase, Codemagic</div>
+  <div><b>Web</b>Next.js (App Router, 13-16), React 19, TypeScript, Tailwind, Mantine, TanStack Query, Zustand</div>
+  <div><b>Backend</b>Node.js (Express, TSOA, tRPC), Python (FastAPI), SQL (PostgreSQL), Supabase (RLS, Edge Functions), Drizzle, Redis, Docker</div>
+  <div><b>ML / Speech</b>Python (PyTorch, scikit-learn, pandas), model fine-tuning, speech corpus building, TTS, speech-to-text, evaluation and QA gates, GPU training</div>
+  <div><b>LLM Eng.</b>RAG and embeddings, grounding and fact validation, agents and MCP, streaming, prompt and cost optimization (Claude, OpenAI, Gemini)</div>
+  <div><b>Integrations</b>QPay, bank payment gateways, e-Mongolia XYP, Microsoft Graph/Teams, Hikvision ANPR, Google Maps</div>
+  <div><b>Cloud</b>Vercel, Cloudflare Workers, Azure, GCP, Linux GPU servers (RunPod)</div>
+  <div><b>Languages</b>Mongolian (native), English (professional)</div>
+</div>
+
+</body>
+</html>

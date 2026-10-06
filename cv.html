@@ -40,7 +40,7 @@
 </header>
 
 <h2>Summary</h2>
-<p>Applied AI engineer and team lead with 8+ years shipping software in Mongolia across government, banking and consumer products. I train and ship models for a low-resource language: my fine-tuned Mongolian voice model dubs full drama episodes with distinct, emotional native voices. I also build grounded LLM products end to end, from data pipelines to evaluation and paid production use. Before that I led mobile and full-stack teams on a national e-library, an 8,500-seat arena platform, bank apps and enterprise systems for Shunkhlai Group and GS25.</p>
+<p>Applied AI engineer and team lead with 8+ years shipping software in Mongolia across government, banking and consumer products. I train and ship models for a low-resource language: my fine-tuned Mongolian voice model dubs full drama episodes with distinct, emotional native voices. I also build grounded LLM products end to end, from data pipelines to evaluation and paid production use. Before that I led mobile teams on a national e-library and an 8,500-seat arena platform, built bank apps, and shipped loyalty, ordering and enterprise apps for GS25, APU and Shunkhlai Group.</p>
 
 <h2>Selected AI Work</h2>
 <ul>
@@ -55,58 +55,51 @@
 
 <div class="job">
   <div class="job-head"><b>ZeroTech LLC</b><span class="dates">Jul 2023 - Oct 2026</span></div>
-  <div class="role">Senior Software Developer (backend, web, mobile)</div>
+  <div class="role">Senior Software Developer (mobile, web, backend) &middot; ~940 commits across 15 production projects</div>
 
-  <div class="proj"><span class="proj-name">GS25 Mongolia: mobile app and receipt admin panel</span>
-    <span class="stack"> Flutter, Next.js 16, React 19, Medusa UI, TanStack Query, Zustand, Docker</span>
+  <div class="proj"><span class="proj-name">Campus super-app (main developer, 69 of 71 commits)</span>
+    <span class="stack"> Flutter, Riverpod, Firebase, WebView</span>
     <ul>
-      <li>Developed the GS25 convenience-store customer app and was the top contributor to the receipt administration panel used to manage and audit e-receipts.</li>
+      <li>Built the app from scratch, including a host for web mini-apps (food ordering, meeting rooms, facility, events, parking) that passes login tokens and handles navigation, and an indoor wayfinding map with a building directory.</li>
     </ul>
   </div>
 
-  <div class="proj"><span class="proj-name">Shunkhlai Group: Orange B2C app, B2B driver app, admin panel</span>
-    <span class="stack"> Flutter, Riverpod 3, Auto Route, Google Maps, Firebase, Codemagic CI/CD, Next.js 14, Mantine</span>
+  <div class="proj"><span class="proj-name">GS25 Mongolia: loyalty app, CRM admin, e-receipt panel</span>
+    <span class="stack"> Flutter, Riverpod, WebSockets, Next.js, Refine, Mantine, Medusa UI, Docker</span>
     <ul>
-      <li>Lead developer on the Shunkhlai Orange consumer app (iOS/Android/web) for fuel and retail customers, with codegen-based architecture (Freezed, json_serializable, riverpod_generator).</li>
-      <li>Built a B2B delivery-driver app with live maps and route handling, plus features in the Next.js operations panel.</li>
+      <li>Built the retail loyalty app from its first version (eBarimt e-receipts, vouchers, coupons, in-app shop, wallet passes, WebSockets) and the loyalty/CRM admin dashboards. Top contributor to the e-receipt panel: batch sending, eBarimt matching, SSO and roles, Docker CI/CD.</li>
     </ul>
   </div>
 
-  <div class="proj"><span class="proj-name">Campus super-app with mini-apps</span>
-    <span class="stack"> Flutter, Riverpod 3, Firebase, Next.js, Vercel</span>
+  <div class="proj"><span class="proj-name">DOT B2B ordering apps (top contributor, 146 commits)</span>
+    <span class="stack"> Flutter, Riverpod, Provider, Freezed, Firebase</span>
     <ul>
-      <li>Architected and built nearly all of a campus super-app hosting pluggable mini-apps: events, facility requests, meeting-room booking, parking, indoor wayfinding map. Wrote the mini-app integration guide.</li>
+      <li>Started and built the customer ordering app (catalog, per-company cart, discounts, order templates, branch management, finance statements, asset and fridge tracking, push notifications) and the sales-rep ordering app.</li>
     </ul>
   </div>
 
-  <div class="proj"><span class="proj-name">Car Parking platform (backend and admin)</span>
-    <span class="stack"> Node.js, Express + TSOA, Drizzle ORM, PostgreSQL, Docker, Jest</span>
+  <div class="proj"><span class="proj-name">APU Dairy and APU Route</span>
+    <span class="stack"> React Native / Expo, Turborepo, Next.js, Drizzle ORM, AG Grid</span>
     <ul>
-      <li>Built ANPR plate-recognition entry/exit with Hikvision gate integration, eligibility and gate-direction rules, and entry-time pricing snapshots so later policy changes don't alter exit fees.</li>
-      <li>Built QR payments: invoices, coupons, partial and double-payment handling, refunds, HMAC-verified callbacks. Also slot allocation, guest passes and an in-app notification center.</li>
+      <li>Started and built the APU Dairy milk-collection app (procurement, driver and lab workflows, offline sync, Bluetooth receipt printing) and built the APU Route fuel accounting system (fuel calculations, vehicles, Excel reports).</li>
     </ul>
   </div>
 
-  <div class="proj"><span class="proj-name">DOT / OnTap customer app</span>
-    <span class="stack"> Flutter, Riverpod, Dio, Firebase, l10n (MN/EN/KO)</span>
+  <div class="proj"><span class="proj-name">Car parking admin panel and POS monitoring</span>
+    <span class="stack"> React, Node.js, PostgreSQL, Drizzle ORM, TanStack, Docker</span>
     <ul>
-      <li>Top contributor (146 commits) to a trilingual customer app covering assets, finance and payments, branch and calendar booking, and push notifications.</li>
-    </ul>
-  </div>
-
-  <div class="proj"><span class="proj-name">APU apps</span>
-    <span class="stack"> React Native + Expo, tRPC, Drizzle ORM, PostgreSQL, Turbo monorepo</span>
-    <ul>
-      <li>Worked on the APU Route, APU DOT and APU Dairy apps.</li>
+      <li>Restructured the parking admin panel per the PRD and built reports with CSV/PDF export, settlement reconciliation, user groups with CSV import, pricing setup and the payment front end. Built a POS fleet monitoring dashboard.</li>
     </ul>
   </div>
 
   <div class="proj"><span class="proj-name">goOrange: Microsoft Teams peer-recognition app (3rd place, Shunkhlai Hackathon)</span>
-    <span class="stack"> React 19, Vite, Supabase (Postgres, Edge Functions, RPC), Bot Framework, Microsoft Graph, MCP</span>
+    <span class="stack"> React 19, Supabase (Postgres, Edge Functions), Bot Framework, Microsoft Graph, MCP</span>
     <ul>
-      <li>Built a Teams tab and bot where employees give each other "oranges": weekly allowances, reactions, rewards redemption, idea board. Includes Graph-synced directory, proactive notifications and an MCP/agent interface.</li>
+      <li>Built a Teams tab and bot for peer recognition: weekly allowances, rewards redemption, idea board, Graph-synced directory, proactive notifications and an MCP/agent interface.</li>
     </ul>
   </div>
+
+  <div class="proj"><span class="proj-name">Shunkhlai Group apps (contributor):</span> e-Mongolia and QPay integration, notifications and loyalty features in the Orange consumer app (Flutter); delivery history in the B2B driver app.</div>
 </div>
 
 <div class="job">
@@ -152,10 +145,9 @@
 <h2>Independent Products and Awards</h2>
 <ul>
   <li><b>3rd place, Open Parliament Hackathon (2026)</b>, organized by the Secretariat of the State Great Khural, The Asia Foundation and Unread Media. 24-hour build of an MP accountability platform (votes, attendance, speeches, bill compliance, grounded AI chat).</li>
-  <li><b>3rd place, Shunkhlai Hackathon</b> with goOrange, an employee recognition tool inside Microsoft Teams, later built out for production (see ZeroTech).</li>
-  <li><b>kinody.mn</b>: mobile-first Asian drama streaming for an audience that is 97% mobile, with QPay subscriptions and protected video delivery. Home of the dubbing model above.</li>
-  <li><b>gadaad.mn</b>: visa application helper for Mongolian travellers covering 10 countries. Passport scan autofill, document checklists with uploads, paid AI approval-chance scoring and arrival-card smart fill. Next.js 16, Supabase, Cloudflare Workers.</li>
-  <li><b>Koharu</b> (open source, MIT): contributor to a desktop manga image translator (Rust, Tauri 2, local LLMs) with text detection, OCR, inpainting and an MCP server.</li>
+  <li><b>kinody.mn</b>: mobile-first Asian drama streaming (97% mobile audience) with QPay subscriptions. Home of the dubbing model.</li>
+  <li><b>gadaad.mn</b>: visa helper for 10 countries: passport-scan autofill, document checklists, paid AI approval scoring.</li>
+  <li><b>Koharu</b> (open source, MIT): contributor to a desktop manga image translator (Rust, Tauri 2, local LLMs).</li>
 </ul>
 
 <h2>Education</h2>
@@ -169,7 +161,7 @@
   <div><b>Backend</b>Node.js (Express, TSOA, tRPC), Python (FastAPI), SQL (PostgreSQL), Supabase (RLS, Edge Functions), Drizzle, Redis, Docker</div>
   <div><b>ML / Speech</b>Python (PyTorch, scikit-learn, pandas), model fine-tuning, speech corpus building, TTS, speech-to-text, evaluation and QA gates, GPU training</div>
   <div><b>LLM Eng.</b>RAG and embeddings, grounding and fact validation, agents and MCP, streaming, prompt and cost optimization (Claude, OpenAI, Gemini)</div>
-  <div><b>Integrations</b>QPay, bank payment gateways, e-Mongolia XYP, Microsoft Graph/Teams, Hikvision ANPR, Google Maps</div>
+  <div><b>Integrations</b>QPay, eBarimt e-receipts, bank payment gateways, e-Mongolia XYP, Microsoft Graph/Teams, Bluetooth printing</div>
   <div><b>Cloud</b>Vercel, Cloudflare Workers, Azure, GCP, Linux GPU servers (RunPod)</div>
   <div><b>Languages</b>Mongolian (native), English (professional)</div>
 </div>

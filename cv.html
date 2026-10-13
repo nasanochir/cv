@@ -47,13 +47,14 @@
   <li><b>Mongolian drama dubbing model (trained myself).</b> Built a ~92-hour, 95-speaker Mongolian speech corpus and fine-tuned a voice model on it, including emotion training (angry, sad, tender delivery). Built per-character voice casting that keeps one consistent voice per character across a series, and an automated QA gate that checks every line for correct words, voice, gender, pitch, timing and a model-based listening test that matches human review 87-93% of the time. Built the subtitle side too: it reads the source subtitles (official tracks, or burned-in text read from the video frames), rewrites them as natural Mongolian sized to each line's timing, and burns Mongolian subtitles into the final episode. <b>Watch: <a href="https://nasanochir.github.io/mongolian-ai-dubbing/" style="color:#b4430e">nasanochir.github.io/mongolian-ai-dubbing</a></b></li>
   <li><b>Grounded civic AI (Open Parliament, 3rd place).</b> Search and chat over parliament agendas, transcripts and 950 laws (15k articles), built only on official open government data. Missing data is shown as a gap, never filled in by the model. Facts are kept only when backed by a verbatim official quote. A validation rule threw out 345 of 550 wrong document links. The assistant re-answers under a stricter grounding rule when it fails to cite sources.</li>
   <li><b>Paid LLM product (astro.mn).</b> 14 personalized long-form reading types and a chat that remembers the user. Facts are computed in code and locked into the prompt so the model can't invent numbers. Live with paid checkout.</li>
+  <li><b>Multi-agent customer service AI on Microsoft (Microsoft EMEA Partner Hackathon, 2026).</b> Built a Copilot Studio orchestrator agent, live in Microsoft Teams, that resolves a support rep's escalation in one turn by routing across specialist tools: cited policy answers from Azure AI Search, order, SLA and expert routing from Azure Functions, and an audit record per escalation in Dataverse with human approval. Held 3 of 3 prompt-injection attacks. Also built a call-center pipeline on Azure AI Speech (English, Mongolian) and Azure OpenAI.</li>
   <li><b>Mongolian language tools.</b> Mongolian meeting transcription and AI meeting notes SaaS (ZeroTech). A spell checker with 96% top-1 suggestion accuracy against 72% for the market leader, on a held-out benchmark.</li>
   <li><b>AI adoption.</b> Designed Shunkhlai Group's 4-module employee AI training program. Use multi-agent coding workflows day to day.</li>
 </ul>
 
 <h2>Experience</h2>
 
-<div class="job">
+<div class="job" style="break-inside: auto">
   <div class="job-head"><b>ZeroTech LLC</b><span class="dates">Jul 2023 - Oct 2026</span></div>
   <div class="role">Senior Software Developer (mobile, web, backend)</div>
 
@@ -162,6 +163,7 @@
   <div><b>ML / Speech</b>Python (PyTorch, scikit-learn, pandas), model fine-tuning, speech corpus building, TTS, speech-to-text, evaluation and QA gates, GPU training</div>
   <div><b>LLM Eng.</b>RAG and embeddings, grounding and fact validation, agents and MCP, streaming, prompt and cost optimization (Claude, OpenAI, Gemini)</div>
   <div><b>Integrations</b>QPay, eBarimt e-receipts, bank payment gateways, e-Mongolia XYP, Microsoft Graph/Teams, Bluetooth printing</div>
+  <div><b>Microsoft AI</b>Copilot Studio, Microsoft Foundry, Azure OpenAI, AI Search, AI Speech, AI Language, Functions, Dataverse</div>
   <div><b>Cloud</b>Vercel, Cloudflare Workers, Azure, GCP, Linux GPU servers (RunPod)</div>
   <div><b>Languages</b>Mongolian (native), English (professional)</div>
 </div>

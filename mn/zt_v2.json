@@ -1,0 +1,24 @@
+{
+ "en": [
+  "Campus super-app (main developer; Flutter, Riverpod, Firebase): built the app from scratch, including a host for web mini-apps (food ordering, meeting rooms, facility, events, parking) that passes login tokens and handles navigation, and an indoor wayfinding map with a building directory.",
+  "GS25 Mongolia: built the retail loyalty app from its first version (eBarimt e-receipts, vouchers, coupons, in-app shop, wallet passes, WebSockets) and the loyalty/CRM admin dashboards. Top contributor to the e-receipt panel: batch sending, eBarimt matching, SSO and roles, Docker CI/CD.",
+  "DOT B2B ordering apps (top contributor; Flutter): started and built the customer ordering app (catalog, per-company cart, discounts, order templates, branch management, finance statements, asset and fridge tracking, push notifications) and the sales-rep ordering app.",
+  "APU Dairy and APU Route: started and built the APU Dairy milk-collection app (React Native/Expo; procurement, driver and lab workflows, offline sync, Bluetooth receipt printing) and built the APU Route fuel accounting system (Next.js, AG Grid; fuel calculations, vehicles, Excel reports).",
+  "Car parking admin and POS monitoring: restructured the parking admin panel per the PRD and built reports with CSV/PDF export, settlement reconciliation, user groups with CSV import, pricing setup and the payment front end. Built a POS fleet monitoring dashboard.",
+  "goOrange: Microsoft Teams peer-recognition app with a bot, Microsoft Graph-synced directory and an MCP agent interface (3rd place, Shunkhlai Hackathon).",
+  "Shunkhlai Group (contributor): e-Mongolia and QPay integration, notifications and loyalty features in the Orange consumer app; delivery history in the B2B driver app.",
+  "AI: Mongolian meeting transcription and AI meeting notes SaaS. Designed Shunkhlai Group's 4-module employee AI training program."
+ ],
+ "mn": [
+  "Кампусын супер апп (үндсэн хөгжүүлэгч; Flutter, Riverpod, Firebase): аппыг эхнээс нь бүтээсэн; хоол захиалга, хурлын өрөө, үйлчилгээний хүсэлт, арга хэмжээ, зогсоол зэрэг веб мини аппуудыг нэвтрэлтийн токеноор холбож, навигацийг удирддаг host болон барилгын лавлахтай доторх чиглүүлэгч газрын зураг хийсэн.",
+  "GS25 Mongolia: жижиглэн худалдааны лоялти аппыг анхны хувилбараас нь бүтээсэн (eBarimt, ваучер, купон, апп доторх дэлгүүр, wallet pass, WebSockets), мөн лоялти/CRM удирдлагын самбаруудыг хөгжүүлсэн. Цахим баримтын самбарт хамгийн их хувь нэмэр оруулсан: багц илгээлт, eBarimt тулгалт, SSO ба эрхийн удирдлага, Docker CI/CD.",
+  "DOT B2B захиалгын аппууд (хамгийн их хувь нэмэр оруулсан; Flutter): харилцагчийн захиалгын аппыг эхлүүлж бүтээсэн (бүтээгдэхүүний каталог, компани тус бүрийн сагс, хөнгөлөлт, захиалгын загвар, салбарын удирдлага, санхүүгийн хуулга, хөрөнгө болон хөргөгчийн хяналт, push мэдэгдэл), мөн борлуулалтын төлөөлөгчийн захиалгын апп хийсэн.",
+  "APU Dairy ба APU Route: APU Dairy сүү бэлтгэлийн аппыг эхлүүлж бүтээсэн (React Native/Expo; худалдан авалт, жолооч ба лабораторийн ажлын урсгал, офлайн синк, Bluetooth баримт хэвлэлт), мөн APU Route шатахууны тооцооны системийг хөгжүүлсэн (Next.js, AG Grid; шатахууны тооцоо, тээврийн хэрэгсэл, Excel тайлан).",
+  "Зогсоолын удирдлагын самбар ба POS хяналт: зогсоолын удирдлагын самбарыг PRD-ийн дагуу шинэчлэн зохион байгуулж, CSV/PDF экспорттой тайлан, тооцоо нийлэх, CSV импорт бүхий хэрэглэгчийн бүлэг, үнийн тохиргоо, төлбөрийн front end-ийг хөгжүүлсэн. POS төхөөрөмжүүдийг хянах самбар бүтээсэн.",
+  "goOrange: bot, Microsoft Graph-тай синхрончлогддог ажилтны жагсаалт, MCP агент интерфэйс бүхий Microsoft Teams дээрх хамт олны талархал илэрхийлэх апп (Шунхлай хакатон, 3-р байр).",
+  "Шунхлай Групп (хувь нэмэр оруулагч): Orange хэрэглэгчийн аппад e-Mongolia ба QPay холболт, мэдэгдэл, лоялти функц; B2B жолоочийн аппад хүргэлтийн түүх нэмсэн.",
+  "AI: Монгол хэлээрх хурлын яриаг таньж бичээд, хиймэл оюунаар хурлын тэмдэглэл үүсгэдэг SaaS бүтээгдэхүүн. Шунхлай Группийн ажилтнуудад зориулсан 4 модультай AI сургалтын хөтөлбөр боловсруулсан."
+ ],
+ "about_last_en": "Previously led mobile teams on a national e-library and an 8,500-seat arena platform, built bank apps, and shipped loyalty, ordering and enterprise apps for GS25, APU and Shunkhlai Group.",
+ "about_last_mn": "Өмнө нь үндэсний цахим номын сан, 8,500 суудалтай аренын төсөлд мобайл баг ахалж, банк болон GS25, APU, Шунхлай Группт апп хөгжүүлсэн."
+}

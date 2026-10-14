@@ -1,0 +1,85 @@
+{
+ "about_en": "Applied AI engineer and team lead with 8+ years shipping software in Mongolia across government, banking and consumer products. I train and ship models for a low-resource language and build grounded LLM products end to end.\n• Mongolian drama dubbing model: built a 92-hour, 95-speaker speech corpus, fine-tuned a voice model with emotion training, plus a QA gate matching human review 87-93%. Demo: nasanochir.github.io/mongolian-ai-dubbing\n• Open Parliament (3rd place): grounded AI over 950 laws, built only on official open government data.\n• astro.mn: paid LLM product; facts computed in code so the model can't invent numbers.\n• Mongolian spell checker: 96% top-1 accuracy vs 72% for the market leader.\nPreviously led mobile teams on a national e-library and an 8,500-seat arena platform, built bank apps, and shipped loyalty, ordering and enterprise apps for GS25, APU and Shunkhlai Group.",
+ "jobs": [
+  {
+   "key": "ZeroTech",
+   "position_en": "Senior Software Developer (backend, web, mobile)",
+   "bullets_en": [
+    "Campus super-app (main developer; Flutter, Riverpod, Firebase): built the app from scratch, including a host for web mini-apps (food ordering, meeting rooms, facility, events, parking) that passes login tokens and handles navigation, and an indoor wayfinding map with a building directory.",
+    "GS25 Mongolia: built the retail loyalty app from its first version (eBarimt e-receipts, vouchers, coupons, in-app shop, wallet passes, WebSockets) and the loyalty/CRM admin dashboards. Top contributor to the e-receipt panel: batch sending, eBarimt matching, SSO and roles, Docker CI/CD.",
+    "DOT B2B ordering apps (top contributor; Flutter): started and built the customer ordering app (catalog, per-company cart, discounts, order templates, branch management, finance statements, asset and fridge tracking, push notifications) and the sales-rep ordering app.",
+    "APU Dairy and APU Route: started and built the APU Dairy milk-collection app (React Native/Expo; procurement, driver and lab workflows, offline sync, Bluetooth receipt printing) and built the APU Route fuel accounting system (Next.js, AG Grid; fuel calculations, vehicles, Excel reports).",
+    "Car parking admin and POS monitoring: restructured the parking admin panel per the PRD and built reports with CSV/PDF export, settlement reconciliation, user groups with CSV import, pricing setup and the payment front end. Built a POS fleet monitoring dashboard.",
+    "goOrange: Microsoft Teams peer-recognition app with a bot, Microsoft Graph-synced directory and an MCP agent interface (3rd place, Shunkhlai Hackathon).",
+    "Shunkhlai Group (contributor): e-Mongolia and QPay integration, notifications and loyalty features in the Orange consumer app; delivery history in the B2B driver app.",
+    "AI: Mongolian meeting transcription and AI meeting notes SaaS. Designed Shunkhlai Group's 4-module employee AI training program."
+   ]
+  },
+  {
+   "key": "SteppeLink",
+   "position_en": "Team Lead, Mobile",
+   "bullets_en": [
+    "Led a mobile team of about 5 people.",
+    "Esan, national digital library (iOS, Android): project lead with a team of 8 on Mongolia's national e-library for ebooks, audiobooks, theses, newspapers and magazines, with offline reading. Integrated the Readium SDK for EPUB rendering with pagination, highlights and reading-position sync.",
+    "Steppe Arena app: delivered the app for the 8,500-seat AIC Steppe Arena with event and sports ticketing, in-seat food ordering, ice-skating session booking and plate-based smart-parking payment.",
+    "Odin Survey: built a survey and market-research platform (web, iOS, Android) where users earn points and coupons and business clients get aggregated insights."
+   ]
+  },
+  {
+   "key": "Infinite",
+   "position_en": "Senior Software Developer, Mobile",
+   "bullets_en": [
+    "Built and maintained mobile banking apps for major Mongolian banks: Arig Bank, XacBank, Golomt Bank and Trade and Development Bank (TDB). Work covered secure login, accounts, transfers, card management and payments.",
+    "Developed the consumer apps Shuffle and Elify.",
+    "Worked within a fintech vendor building payments, merchant and loyalty infrastructure under banking security and compliance requirements."
+   ]
+  },
+  {
+   "key": "Astvision",
+   "position_en": "Software Developer, Full-Stack",
+   "bullets_en": [
+    "Full-stack work on government e-service systems: early e-Mongolia platform work, the Ulaanbaatar city e-services portal (e-service.ulaanbaatar.mn), and my.tog.mn, the Ulaanbaatar Electricity Distribution Network customer portal for bills, consumption and service requests."
+   ]
+  }
+ ],
+ "projects": [
+  {
+   "name_en": "Mongolian drama dubbing model",
+   "desc_en": "Built a ~92-hour, 95-speaker Mongolian speech corpus and fine-tuned a voice model on it, including emotion training (angry, sad, tender delivery). Per-character voice casting across a series, and an automated QA gate checking words, voice, gender, pitch and timing, with a model-based listening test that matches human review 87-93% of the time. Also reads source or burned-in subtitles, rewrites them as natural Mongolian timed to each line, and burns them into the episode."
+  },
+  {
+   "name_en": "Open Parliament: grounded civic AI",
+   "desc_en": "Search and chat over parliament agendas, transcripts and 950 laws (15k articles), built only on official open government data. Facts are kept only when backed by a verbatim official quote; a validation rule threw out 345 of 550 wrong document links. 3rd place, Open Parliament Hackathon."
+  },
+  {
+   "name_en": "astro.mn: paid LLM product",
+   "desc_en": "14 personalized long-form reading types and a chat that remembers the user. Facts are computed in code and locked into the prompt so the model can't invent numbers. Live with paid checkout."
+  },
+  {
+   "name_en": "kinody.mn",
+   "desc_en": "Mobile-first Asian drama streaming for an audience that is 97% mobile, with QPay subscriptions and protected video delivery. Home of the dubbing model."
+  },
+  {
+   "name_en": "gadaad.mn",
+   "desc_en": "Visa application helper for Mongolian travellers covering 10 countries: passport scan autofill, document checklists with uploads, paid AI approval-chance scoring and arrival-card smart fill. Next.js 16, Supabase, Cloudflare Workers."
+  },
+  {
+   "name_en": "Koharu (open source, MIT)",
+   "desc_en": "Contributor to a desktop manga image translator (Rust, Tauri 2, local LLMs) with text detection, OCR, inpainting and an MCP server."
+  },
+  {
+   "name_en": "Mongolian spell checker",
+   "desc_en": "96% top-1 suggestion accuracy against 72% for the market leader, on a held-out benchmark."
+  }
+ ],
+ "education": [
+  {
+   "school": "Sapienza University of Rome",
+   "degree_en": "Master's program in Computer Science and AI (completed first year, 2017-2018)"
+  },
+  {
+   "school": "National University of Mongolia",
+   "degree_en": "Bachelor of Information Technology (2013-2017)"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "issues": [
+  {
+   "path": "mn[0]",
+   "original": "шилжилтийг",
+   "fixed": "навигацийг",
+   "why": "The word 'шилжилт' (transition) is unnatural for app navigation. 'Навигаци' is the standard technical term."
+  },
+  {
+   "path": "mn[1]",
+   "original": "eBarimt цахим баримт",
+   "fixed": "eBarimt",
+   "why": "Redundant. 'eBarimt' is the official name and already means 'e-receipt', so adding 'цахим баримт' (e-receipt) is unnecessary."
+  },
+  {
+   "path": "mn[2]",
+   "original": "санхүүгийн хуулга",
+   "fixed": "санхүүгийн тайлан",
+   "why": "Incorrect terminology. 'хуулга' means 'extract' or 'bank statement', while 'тайлан' is the correct term for 'financial statement' or 'report'."
+  },
+  {
+   "path": "mn[2]",
+   "original": "хөрөнгө ба хөргөгчийн бүртгэл",
+   "fixed": "хөрөнгө болон хөргөгчийн хяналт",
+   "why": "The word 'бүртгэл' (registration/record) is less accurate for 'tracking' than 'хяналт' (monitoring/tracking)."
+  },
+  {
+   "path": "mn[4]",
+   "original": "CSV-ээр бөөнөөр оруулах хэрэглэгчийн бүлэг",
+   "fixed": "CSV импорт бүхий хэрэглэгчийн бүлэг",
+   "why": "The original phrasing is awkward and verbose. The fixed version is a more standard and concise way to say 'user groups with CSV import'."
+  },
+  {
+   "path": "mn[4]",
+   "original": "төлбөрийн front end хийсэн",
+   "fixed": "төлбөрийн front end-ийг хөгжүүлсэн",
+   "why": "The verb 'хийсэн' (did/made) is too informal for a CV. 'Хөгжүүлсэн' (developed) is the standard professional term. Added case ending for grammatical correctness."
+  }
+ ]
+}

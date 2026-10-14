@@ -1,0 +1,28 @@
+{
+ "issues": [
+  {
+   "path": "projects[0].desc",
+   "original": "ангид",
+   "fixed": "видеонд",
+   "why": "Grammar error. 'анги' means 'class'; the context requires 'видеонд' (into the video)."
+  },
+  {
+   "path": "projects[2].desc",
+   "original": "Төлбөрийн системтэйгээр ажиллаж байна.",
+   "fixed": "Төлбөрийн систем нэвтрүүлсэн.",
+   "why": "Unnatural phrasing. The original sounds like a direct translation of 'is working with a payment system'. The fix is more idiomatic and active for a project description."
+  },
+  {
+   "path": "projects[5].desc",
+   "original": "жагсаалт ба байршуулалт",
+   "fixed": "жагсаалт болон байршуулах",
+   "why": "Unnatural phrasing. 'байршуулалт' is an awkward noun for 'upload'; the verb form 'байршуулах' is more natural in a list of features. 'ба' is also overly formal; 'болон' is more common."
+  },
+  {
+   "path": "projects[5].desc",
+   "original": "ирэх картыг",
+   "fixed": "ирэх хуудсыг",
+   "why": "Incorrect terminology. 'карт' is a loanword. The correct Mongolian term for an official document like an 'arrival card' is 'хуудас' (sheet/form)."
+  }
+ ]
+}

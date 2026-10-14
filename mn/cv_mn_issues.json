@@ -1,0 +1,16 @@
+{
+ "issues": [
+  {
+   "field": "jobs[0].bullets[3]",
+   "original": "хаалттай интеграцчилсан",
+   "fixed": "хаалттай интеграцтай",
+   "why": "Unnatural phrasing. 'интеграцтай' (with integration) is a more natural and common construction than the verbal adjective 'интеграцчилсан' (integrated) in this context."
+  },
+  {
+   "field": "jobs[1].bullets[1]",
+   "original": "уншигчийн харуулалт",
+   "fixed": "уншигчийн харагдац",
+   "why": "Unnatural terminology. In UI/software context, 'харагдац' (view/appearance) is the correct term for 'reader view', whereas 'харуулалт' means 'showing' or 'display'."
+  }
+ ]
+}

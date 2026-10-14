@@ -1,0 +1,136 @@
+{
+ "issues": [
+  {
+   "path": "about_mn",
+   "original": "хэрэглээний бүтээгдэхүүн дээр",
+   "fixed": "хэрэглээний бүтээгдэхүүний чиглэлээр",
+   "why": "The preposition 'дээр' is a literal translation of 'on'. 'чиглэлээр' (in the field of) is more natural for describing work experience in a sector."
+  },
+  {
+   "path": "about_mn",
+   "original": "Автомат чанарын шалгалт нь хүний үнэлгээтэй 87-93% таардаг",
+   "fixed": "Автомат чанарын шалгалтын үр дүн нь хүний үнэлгээтэй 87-93% нийцдэг",
+   "why": "'таардаг' is too colloquial. 'нийцдэг' (corresponds/aligns with) is more professional. The original phrasing is also slightly ambiguous."
+  },
+  {
+   "path": "about_mn",
+   "original": "Тоонуудыг кодоор бодож өгдөг тул модел тоо зохиодоггүй.",
+   "fixed": "Тооцооллыг кодоор хийдэг тул модел худал тоо гаргадаггүй.",
+   "why": "'бодож өгдөг' is colloquial and 'тоо зохиодоггүй' is a very literal translation of 'doesn't hallucinate numbers'. The suggested fix is more natural and professional."
+  },
+  {
+   "path": "about_mn",
+   "original": "апп дээр мобайл баг ахалж",
+   "fixed": "аппыг хөгжүүлэх мобайл багийг ахалж",
+   "why": "This is a literal translation of 'led a mobile team on the app'. The corrected version clarifies the purpose of the team."
+  },
+  {
+   "path": "jobs[0].bullets_mn[0]",
+   "original": "navigation хийдэг",
+   "fixed": "шилжилт хийдэг",
+   "why": "This is a direct use of an English verb with a Mongolian suffix. 'шилжилт хийдэг' (makes transitions) is a more natural equivalent in this context."
+  },
+  {
+   "path": "jobs[0].bullets_mn[1]",
+   "original": "eBarimt тааруулах",
+   "fixed": "eBarimt тооцоо нийлэх",
+   "why": "'тааруулах' is vague. 'тооцоо нийлэх' (to reconcile accounts/transactions) is the standard term for this financial process."
+  },
+  {
+   "path": "jobs[0].bullets_mn[2]",
+   "original": "хөрөнгө болон хөргөгч хянах",
+   "fixed": "эд хөрөнгө болон хөргөгч хянах",
+   "why": "'хөрөнгө' is too general and can mean financial assets. 'эд хөрөнгө' specifically refers to physical assets/property, which is the correct meaning here."
+  },
+  {
+   "path": "jobs[0].bullets_mn[3]",
+   "original": "жолооч болон лабораторийн процесс",
+   "fixed": "жолоочийн болон лабораторийн үйл явц",
+   "why": "The phrasing is grammatically awkward. 'үйл явц' is the correct word for 'process' and the possessive case for 'жолооч' is needed for clarity."
+  },
+  {
+   "path": "jobs[0].bullets_mn[4]",
+   "original": "дахин зохион байгуулж",
+   "fixed": "бүтцийг шинэчилж",
+   "why": "'дахин зохион байгуулж' (re-organized) is too generic for software. 'бүтцийг шинэчилж' (restructured/redesigned) is more precise for re-architecting a system."
+  },
+  {
+   "path": "jobs[0].bullets_mn[6]",
+   "original": "QPay холболт",
+   "fixed": "QPay холболтыг",
+   "why": "Grammatically incorrect. The object of the verb 'нэмсэн' (added) needs to be in the accusative case."
+  },
+  {
+   "path": "jobs[1].bullets_mn[1]",
+   "original": "функцтэйгээр харуулахын тулд",
+   "fixed": "функцүүдийг хэрэгжүүлэхийн тулд",
+   "why": "The phrasing is awkward. 'хэрэгжүүлэхийн тулд' (in order to implement) is the standard and more professional way to talk about adding software features."
+  },
+  {
+   "path": "jobs[2].bullets_mn[0]",
+   "original": "арчилж байсан",
+   "fixed": "хэвийн ажиллагааг хангаж байсан",
+   "why": "'арчилж' is a literal translation of 'maintain' and sounds like taking care of a living thing. 'хэвийн ажиллагааг хангаж байсан' (ensured normal operation) is the standard term for software maintenance."
+  },
+  {
+   "path": "jobs[3].bullets_mn[0]",
+   "original": "системүүд дээр",
+   "fixed": "системүүдэд",
+   "why": "'дээр' is a literal translation of 'on'. The locative case suffix '-д' is more appropriate and natural for 'in/at systems'."
+  },
+  {
+   "path": "projects[0].desc_mn",
+   "original": "сэтгэл хөдөлгөөнийг гаргаж сурсан",
+   "fixed": "сэтгэл хөдлөлийг илэрхийлж сурсан",
+   "why": "'гаргаж' (to produce/output) is too generic. 'илэрхийлж' (to express) is more specific and natural for emotions. Also includes a minor grammatical correction."
+  },
+  {
+   "path": "projects[0].desc_mn",
+   "original": "хүний шалгалттай 87-93% таардаг",
+   "fixed": "хүний шалгалттай 87-93% нийцдэг",
+   "why": "'таардаг' is too colloquial. 'нийцдэг' (corresponds/aligns with) is more professional and accurate for comparing results."
+  },
+  {
+   "path": "projects[0].desc_mn",
+   "original": "анги дээр бичиж оруулдаг",
+   "fixed": "тухайн хэсэгт тэмдэглэдэг",
+   "why": "The original phrase is nonsensical. 'анги' is likely a mistranslation of 'clip' or 'segment'. The suggested fix means 'annotates on the segment', which makes sense in context."
+  },
+  {
+   "path": "projects[1].desc_mn",
+   "original": "Баримтыг зөвхөн албан ёсны эх сурвалжаас иш татсан тохиолдолд хадгалдаг.",
+   "fixed": "Зөвхөн албан ёсны эх сурвалжаас иш татан хариулдаг.",
+   "why": "'хадгалдаг' (stores) is confusing. The likely meaning is that the AI grounds its answers in sources, for which 'иш татан хариулдаг' (answers by citing) is much clearer."
+  },
+  {
+   "path": "projects[1].desc_mn",
+   "original": "Шалгах дүрмээр",
+   "fixed": "Дүрэмд суурилсан шалгалтаар",
+   "why": "This is a literal translation of 'with a checking rule'. 'Дүрэмд суурилсан шалгалтаар' (with a rule-based check) is the more standard technical term."
+  },
+  {
+   "path": "projects[2].desc_mn",
+   "original": "урт хэмжээний унших материал",
+   "fixed": "урт хэмжээний контент",
+   "why": "This is a literal translation of 'long-form reading material'. 'урт хэмжээний контент' is more natural and common in a digital context."
+  },
+  {
+   "path": "projects[2].desc_mn",
+   "original": "баримтуудыг кодоор бодож, prompt-д түгжиж өгдөг",
+   "fixed": "тооцооллыг кодоор хийж, үр дүнг prompt-д оруулж өгдөг",
+   "why": "'баримт бодох' (calculating facts) is illogical, and 'түгжиж өгдөг' (locks it in) is an overly literal translation of technical jargon. The fix clarifies the action."
+  },
+  {
+   "path": "projects[4].desc_mn",
+   "original": "ирэх хуудас",
+   "fixed": "хилээр нэвтрэх мэдүүлэг",
+   "why": "'ирэх хуудас' is a literal translation of 'arrival card' and is not a standard term. 'хилээр нэвтрэх мэдүүлэг' (border entry declaration) is the more official and understandable term."
+  },
+  {
+   "path": "education[0].degree_mn",
+   "original": "Компьютерын ухаан",
+   "fixed": "Компьютерын шинжлэх ухаан",
+   "why": "'Компьютерын ухаан' is a common but overly literal and simplistic translation of 'Computer Science'. 'Компьютерын шинжлэх ухаан' is the formally correct academic term."
+  }
+ ]
+}
